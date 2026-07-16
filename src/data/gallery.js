@@ -1,61 +1,22 @@
-export const galleryItems = [
-  { id: 1, title: 'CLAP gathering', alt: 'CLAP members gathered at an organizational event', src: '/gallery/1.jpg' },
+const oathTakingImages = Array.from({ length: 14 }, (_, index) => {
+  const imageNumber = index + 1;
+
+  return {
+    id: imageNumber,
+    alt: `CLAP Oath Taking Ceremony photograph ${imageNumber}`,
+    src: `/gallery/oath-taking-ceremony/${imageNumber}.jpg`,
+  };
+});
+
+export const galleryFolders = [
   {
-    id: 2,
-    title: 'Legal awareness program',
-    alt: 'CLAP legal awareness activity with community participants',
-    src: '/gallery/2.jpg',
-  },
-  {
-    id: 3,
-    title: 'Community outreach',
-    alt: 'CLAP members engaged in community service outreach',
-    src: '/gallery/3.jpg',
-  },
-  {
-    id: 4,
-    title: 'Cabinet meeting',
-    alt: 'CLAP cabinet members during an organizational meeting',
-    src: '/gallery/4.jpg',
-  },
-  { id: 5, title: 'Advocacy event', alt: 'CLAP advocacy event with legal professionals', src: '/gallery/5.jpg' },
-  {
-    id: 6,
-    title: 'Rights education session',
-    alt: 'Participants attending a CLAP rights education session',
-    src: '/gallery/6.jpg',
-  },
-  {
-    id: 7,
-    title: 'Community consultation',
-    alt: 'CLAP lawyers meeting with community members',
-    src: '/gallery/7.jpg',
-  },
-  { id: 8, title: 'Leadership meeting', alt: 'CLAP leadership team in discussion', src: '/gallery/8.jpg' },
-  { id: 9, title: 'Seminar program', alt: 'CLAP seminar with attendees and speakers', src: '/gallery/9.jpg' },
-  {
-    id: 10,
-    title: 'Workshop session',
-    alt: 'CLAP workshop on legal rights and awareness',
-    src: '/gallery/10.jpg',
-  },
-  {
-    id: 11,
-    title: 'Service activity',
-    alt: 'CLAP volunteers participating in a service activity',
-    src: '/gallery/11.jpg',
-  },
-  {
-    id: 12,
-    title: 'Association meeting',
-    alt: 'CLAP members seated for an association meeting',
-    src: '/gallery/12.jpg',
-  },
-  { id: 13, title: 'Public event', alt: 'CLAP representatives at a public event', src: '/gallery/13.jpg' },
-  {
-    id: 14,
-    title: 'Legal fellowship',
-    alt: 'Christian lawyers gathered for CLAP fellowship',
-    src: '/gallery/14.jpg',
+    id: 'oath-taking-ceremony',
+    title: 'Oath Taking Ceremony',
+    path: '/gallery/oath-taking-ceremony',
+    coverImage: '/gallery/oath-taking-ceremony/12.jpg',
+    coverAlt: 'CLAP Oath Taking Ceremony featured photograph',
+    items: oathTakingImages,
   },
 ];
+
+export const galleryItems = oathTakingImages;

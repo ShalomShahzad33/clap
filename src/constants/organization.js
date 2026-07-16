@@ -6,6 +6,6 @@ export const organization = {
     'A national platform of Christian lawyers founded in 1994 to promote justice, equality, human rights, and the rule of law while serving as a collective voice for Christian legal professionals across Pakistan.',
   email: 'info@clap.org.pk',
   phone: '+92 300 0000000',
-  address: 'Lahore, Punjab, Pakistan',
+  address: '13 Fan Road, Lahore High Court, Lahore, Pakistan',
   socialLinks: [],
 };
