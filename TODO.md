@@ -72,7 +72,7 @@
 
 ## Remaining Content Inputs
 
-- [ ] Replace placeholder president message with official approved text
-- [ ] Replace placeholder cabinet names with official member data
-- [ ] Replace gallery placeholders with official photographs
-- [ ] Confirm final office address, phone, email, and social links
+- [x] Replace placeholder president message with official approved text
+- [x] Replace placeholder cabinet names with official member data
+- [x] Replace gallery placeholders with official photographs
+- [~] Confirm final office address, phone, email, and social links (social links removed; contact details still use placeholders pending confirmation)

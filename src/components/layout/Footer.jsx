@@ -8,7 +8,10 @@ export default function Footer() {
     <footer className="border-t border-clap-border bg-clap-slate">
       <Container className="grid gap-10 py-12 md:grid-cols-[1.5fr_1fr_1fr]">
         <div>
-          <p className="font-serif text-2xl font-black text-clap-text">{organization.shortName}</p>
+          <Link to="/" className="focus-ring inline-flex items-center gap-3 rounded-md">
+            <img className="h-12 w-12 rounded-md object-contain" src="/logo.png" alt={`${organization.shortName} logo`} />
+            <span className="font-serif text-2xl font-black text-clap-text">{organization.shortName}</span>
+          </Link>
           <p className="mt-4 max-w-xl text-sm leading-6 text-clap-muted">{organization.summary}</p>
         </div>
         <div>

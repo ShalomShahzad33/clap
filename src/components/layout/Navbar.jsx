@@ -13,12 +13,10 @@ export default function Navbar() {
   const location = useLocation();
 
   return (
-    <header className="sticky top-0 z-40 border-b border-clap-border bg-clap-navy/90 backdrop-blur">
+    <header className="sticky top-0 z-40 border-b border-clap-border bg-clap-navy lg:bg-clap-navy/90 lg:backdrop-blur">
       <Container className="flex h-20 items-center justify-between">
         <Link to="/" className="focus-ring flex items-center gap-3 rounded-md" onClick={() => setOpen(false)}>
-          <span className="flex h-11 w-11 items-center justify-center rounded-md border border-clap-gold/50 bg-clap-gold text-sm font-black text-clap-navy">
-            CLAP
-          </span>
+          <img className="h-12 w-12 rounded-md object-contain" src="/logo.png" alt={`${organization.shortName} logo`} />
           <span className="hidden max-w-64 font-serif text-lg font-black leading-tight text-clap-text sm:block">
             {organization.name}
           </span>

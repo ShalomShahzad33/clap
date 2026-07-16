@@ -1,5 +1,4 @@
 import Container from '../components/common/Container.jsx';
-import MapPlaceholder from '../components/common/MapPlaceholder.jsx';
 import PageHero from '../components/common/PageHero.jsx';
 import Seo from '../components/common/Seo.jsx';
 import ContactFormSection from '../components/sections/ContactFormSection.jsx';
@@ -19,9 +18,6 @@ export default function ContactPage() {
         <Container className="grid gap-8 lg:grid-cols-[0.85fr_1.15fr]">
           <ContactInfoSection />
           <ContactFormSection />
-        </Container>
-        <Container className="mt-8">
-          <MapPlaceholder />
         </Container>
       </section>
     </>

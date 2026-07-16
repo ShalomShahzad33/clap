@@ -1,34 +1,52 @@
-import { BookOpen, Handshake, Landmark, Scale, ShieldCheck, Users } from 'lucide-react';
+import { BookOpen, Handshake, HeartHandshake, Landmark, Megaphone, Scale, ShieldCheck, Users } from 'lucide-react';
 
 export const objectives = [
   {
-    title: 'Legal Advocacy',
-    description: 'Advocate for lawful protections, due process, and access to justice for vulnerable communities.',
-    icon: Scale,
-  },
-  {
-    title: 'Professional Fellowship',
-    description: 'Connect Christian lawyers across Pakistan for mentorship, collaboration, and mutual support.',
-    icon: Users,
-  },
-  {
-    title: 'Human Rights',
-    description: 'Promote dignity, equality, religious freedom, and constitutionally protected civil rights.',
+    title: 'Protection of Human Rights',
+    description:
+      'CLAP advocates for the protection and promotion of human rights, fundamental freedoms, religious liberty, and equal citizenship for all Pakistanis.',
     icon: ShieldCheck,
   },
   {
-    title: 'Legal Awareness',
-    description: 'Organize seminars, workshops, and public education programs on rights and responsibilities.',
-    icon: BookOpen,
+    title: 'Legal Assistance and Advocacy',
+    description:
+      'The Association provides legal support and assistance to victims of persecution, discrimination, injustice, and human rights violations, particularly those belonging to vulnerable and marginalized communities.',
+    icon: Scale,
   },
   {
-    title: 'Institutional Engagement',
-    description: 'Build constructive relationships with bar associations, courts, and civic institutions.',
+    title: 'Addressing Discrimination',
+    description:
+      'CLAP actively highlights and challenges all forms of discrimination against Christians, including constitutional, legal, educational, and social discrimination.',
+    icon: Megaphone,
+  },
+  {
+    title: 'Reform and Justice',
+    description:
+      'The Association advocates for legal reforms and fair implementation of laws, including addressing concerns related to the misuse of blasphemy laws and ensuring access to justice for all citizens.',
     icon: Landmark,
   },
   {
-    title: 'Community Service',
-    description: 'Encourage service-oriented legal work that supports peace, reconciliation, and public good.',
+    title: 'Capacity Building of Lawyers',
+    description:
+      'CLAP is committed to the professional development of Christian lawyers through seminars, workshops, conferences, training programs, and collaborative initiatives with national and international organizations.',
+    icon: BookOpen,
+  },
+  {
+    title: 'Patronizing Young Christian Lawyers',
+    description:
+      'The Association encourages, mentors, and supports young Christian lawyers by providing networking opportunities, professional guidance, and leadership development programs.',
+    icon: Users,
+  },
+  {
+    title: 'Promoting Unity and Brotherhood',
+    description:
+      'CLAP fosters fellowship, cooperation, and professional solidarity among Christian lawyers throughout Pakistan, strengthening a spirit of mutual support and collective service.',
+    icon: HeartHandshake,
+  },
+  {
+    title: 'Partnerships and Collaboration',
+    description:
+      'The Association works jointly with churches, civil society organizations, human rights groups, and other stakeholders to advance justice, equality, and legal awareness.',
     icon: Handshake,
   },
 ];

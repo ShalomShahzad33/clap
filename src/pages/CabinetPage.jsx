@@ -10,7 +10,7 @@ export default function CabinetPage() {
       <PageHero
         eyebrow="Our Cabinet"
         title="Leadership serving CLAP across Pakistan."
-        description="Cabinet records are data-driven and ready for official names, portraits, roles, and regional details."
+        description="Meet the CLAP cabinet and executive members serving across Pakistan."
       />
       <CabinetSection />
     </>

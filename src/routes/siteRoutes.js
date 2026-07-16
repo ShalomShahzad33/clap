@@ -1,4 +1,5 @@
 import AboutPage from '../pages/AboutPage.jsx';
+import CabinetMemberPage from '../pages/CabinetMemberPage.jsx';
 import CabinetPage from '../pages/CabinetPage.jsx';
 import ContactPage from '../pages/ContactPage.jsx';
 import GalleryPage from '../pages/GalleryPage.jsx';
@@ -10,6 +11,8 @@ export const appRoutes = [
   { path: '/about', element: AboutPage },
   { path: '/gallery', element: GalleryPage },
   { path: '/our-cabinet', element: CabinetPage },
+  { path: '/our-cabinet/:slug', element: CabinetMemberPage },
   { path: '/contact', element: ContactPage },
+  { path: '/404', element: NotFoundPage },
   { path: '*', element: NotFoundPage },
 ];

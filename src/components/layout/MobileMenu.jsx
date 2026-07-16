@@ -30,8 +30,9 @@ export default function MobileMenu({ pathname, onClose }) {
         exit="exit"
       >
         <div className="flex items-center justify-between gap-4">
-          <Link to="/" className="font-serif text-lg font-black text-clap-text" onClick={onClose}>
-            {organization.shortName}
+          <Link to="/" className="focus-ring flex items-center gap-3 rounded-md" onClick={onClose}>
+            <img className="h-11 w-11 rounded-md object-contain" src="/logo.png" alt={`${organization.shortName} logo`} />
+            <span className="font-serif text-lg font-black text-clap-text">{organization.shortName}</span>
           </Link>
           <button
             type="button"

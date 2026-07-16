@@ -16,7 +16,7 @@ export default function CabinetSection() {
               <SectionHeader title={group} />
               <div className="mt-6 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
                 {members.map((member, index) => (
-                  <LeadershipCard key={`${member.name}-${group}-${index}`} member={member} featured={group === 'President'} />
+                  <LeadershipCard key={member.slug} member={member} featured={group === 'President'} />
                 ))}
               </div>
             </div>

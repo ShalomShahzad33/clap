@@ -14,7 +14,7 @@ export default function ObjectivesOverview({ detailed = false }) {
         <SectionHeader
           eyebrow="Objectives"
           title={detailed ? 'Detailed objectives' : 'Focused areas of service'}
-          description="CLAP organizes its work around advocacy, fellowship, awareness, rights, institutions, and service."
+          description="CLAP organizes its work around human rights, legal assistance, reform, capacity building, unity, and collaboration."
         />
         <motion.div
           className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3"
