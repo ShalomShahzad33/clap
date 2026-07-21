@@ -5,7 +5,7 @@ export const cabinetMembers = [
     role: 'President',
     location: 'Pakistan',
     group: 'President',
-    image: '/gallery/cabinet/Riaz Anjum.jpeg',
+    image: null,
     bio: [
       'Riaz Anjum is Advocate High Court and President of the Christian Lawyers Association in Pakistan (CLAP).',
       'He leads the association in its commitment to justice, human dignity, equality, and the rule of law, serving vulnerable communities and strengthening the Christian legal profession across Pakistan.',
@@ -17,7 +17,7 @@ export const cabinetMembers = [
     role: 'Senior Vice President (2025–26)',
     location: 'Lahore',
     group: 'Vice Presidents',
-    image: '/gallery/cabinet/Jawad Farhat Khokhar.jpeg',
+    image: null,
     bio: [
       'Jawad Farhat Khokhar is Advocate High Court and Senior Vice President of CLAP (2025–26). He previously served as General Secretary of CLAP (2018–2019).',
       'He is a law graduate (LL.B) with an M.A. in Political Science and holds life memberships of the Lahore Bar Association, High Court Bar Association, and Tax Bar Association.',
@@ -29,7 +29,7 @@ export const cabinetMembers = [
     role: 'Vice President (2025–26)',
     location: 'Lahore',
     group: 'Vice Presidents',
-    image: '/gallery/cabinet/Sarfraz Khokhar.jpeg',
+    image: null,
     bio: [
       'Sarfraz Khokhar is Advocate High Court and Vice President of CLAP (2025–26). He is a law graduate (LL.B) and holds life membership of the Lahore Bar Association and High Court Bar Association (2016).',
       'Office: First Floor office # 5, Fazal-e-Miran Plaza near Lahore High Court.',
@@ -41,7 +41,7 @@ export const cabinetMembers = [
     role: 'General Secretary (2025–26)',
     location: 'Lahore',
     group: 'General Secretary',
-    image: '/gallery/cabinet/Abisaloom Robin Bhatti.jpeg',
+    image: null,
     bio: [
       'Abisaloom Robin Bhatti is Advocate High Court and presently serves as General Secretary of Christian Lawyers Association in Pakistan (CLAP) for the 2025–2026 session. He previously served as Joint Secretary of CLAP (2023–2024).',
       'He holds an LLM from the University of Lahore, a B.A. LLB (Hons) from the University of the Punjab Law College, and an M.A. in International Relations from the University of Lakki Marwat.',
@@ -81,7 +81,7 @@ export const cabinetMembers = [
     role: 'Press Secretary (2025–26)',
     location: 'Lahore',
     group: 'Executive Members',
-    image: '/gallery/cabinet/Rauf Khan.jpeg',
+    image: null,
     bio: [
       'Rauf Khan is Advocate High Court and presently serves as Executive Member of the CLAP Cabinet (2025–26) as Press Secretary.',
       'He completed Matriculation in Science from St. Mary\'s High School Mariyam Nishat Colony, Intermediate (I.Com) and Bachelor (B.Com) from Government Diyal Singh College Lahore, and LL.B from Punjab University (City Law College Lahore). He has practiced law since 2013, with Lower Court Licence in 2013 and High Court Licence in 2015.',
