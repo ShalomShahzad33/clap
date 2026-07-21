@@ -30,7 +30,7 @@ export default function Navbar() {
               className={({ isActive }) =>
                 cn(
                   'focus-ring rounded-md px-4 py-2 text-sm font-semibold text-clap-muted transition hover:text-clap-text',
-                  isActive && 'bg-white/5 text-clap-gold',
+                  isActive && 'bg-white/5 text-clap-sky',
                 )
               }
             >

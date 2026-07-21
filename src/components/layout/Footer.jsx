@@ -15,7 +15,7 @@ export default function Footer() {
           <p className="mt-4 max-w-xl text-sm leading-6 text-clap-muted">{organization.summary}</p>
         </div>
         <div>
-          <h2 className="text-sm font-semibold uppercase tracking-widest text-clap-gold">Quick Links</h2>
+          <h2 className="text-sm font-semibold uppercase tracking-widest text-clap-sky">Quick Links</h2>
           <nav className="mt-4 grid gap-2" aria-label="Footer navigation">
             {navigationLinks.map((link) => (
               <Link key={link.path} to={link.path} className="focus-ring rounded-md text-sm text-clap-muted hover:text-clap-text">
@@ -25,7 +25,7 @@ export default function Footer() {
           </nav>
         </div>
         <div>
-          <h2 className="text-sm font-semibold uppercase tracking-widest text-clap-gold">Contact</h2>
+          <h2 className="text-sm font-semibold uppercase tracking-widest text-clap-sky">Contact</h2>
           <div className="mt-4 grid gap-2 text-sm text-clap-muted">
             <a className="focus-ring rounded-md hover:text-clap-text" href={`mailto:${organization.email}`}>
               {organization.email}

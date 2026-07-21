@@ -2,9 +2,9 @@ import { Link } from 'react-router-dom';
 import { cn } from '../../utils/cn.js';
 
 const variants = {
-  primary: 'bg-clap-gold text-clap-navy hover:bg-clap-goldSoft',
-  secondary: 'border border-clap-border bg-white/5 text-clap-text hover:border-clap-gold/60 hover:bg-white/10',
-  text: 'text-clap-gold hover:text-clap-goldSoft',
+  primary: 'bg-clap-sky text-clap-navy hover:bg-clap-skySoft',
+  secondary: 'border border-clap-sky/60 bg-white/5 text-clap-text hover:bg-clap-sky/10',
+  text: 'text-clap-sky hover:text-clap-skySoft',
 };
 
 export default function Button({ to, href, variant = 'primary', className = '', children, ...props }) {

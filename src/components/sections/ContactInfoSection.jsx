@@ -8,9 +8,9 @@ export default function ContactInfoSection() {
         const Icon = method.icon;
         const content = (
           <Card className="flex items-start gap-4">
-            <Icon className="mt-1 h-6 w-6 shrink-0 text-clap-gold" aria-hidden="true" />
+            <Icon className="mt-1 h-6 w-6 shrink-0 text-clap-sky" aria-hidden="true" />
             <div>
-              <h2 className="text-sm font-semibold uppercase tracking-widest text-clap-gold">{method.label}</h2>
+              <h2 className="text-sm font-semibold uppercase tracking-widest text-clap-sky">{method.label}</h2>
               <p className="mt-2 text-clap-muted">{method.value}</p>
             </div>
           </Card>

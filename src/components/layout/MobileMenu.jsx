@@ -51,7 +51,7 @@ export default function MobileMenu({ pathname, onClose }) {
               onClick={onClose}
               className={cn(
                 'focus-ring rounded-md px-4 py-3 text-base font-semibold text-clap-muted',
-                pathname === link.path && 'bg-white/5 text-clap-gold',
+                pathname === link.path && 'bg-white/5 text-clap-sky',
               )}
             >
               {link.label}

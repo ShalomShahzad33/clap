@@ -30,7 +30,7 @@ export default function MemberPortrait({ member, size = 'card' }) {
   }
 
   return (
-    <div className="mb-5 flex h-20 w-20 shrink-0 items-center justify-center rounded-lg border border-clap-border bg-clap-navy text-xl font-bold text-clap-gold md:mb-0">
+    <div className="mb-5 flex h-20 w-20 shrink-0 items-center justify-center rounded-lg border border-clap-border bg-clap-navy text-xl font-bold text-clap-sky md:mb-0">
       {getInitials(member.name)}
     </div>
   );

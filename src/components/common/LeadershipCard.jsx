@@ -9,9 +9,9 @@ export default function LeadershipCard({ member, featured = false }) {
         <MemberPortrait member={member} />
         <div>
           <h3 className="font-serif text-xl font-bold text-clap-text">{member.name}</h3>
-          <p className="mt-1 text-sm font-semibold text-clap-gold">{member.role}</p>
+          <p className="mt-1 text-sm font-semibold text-clap-sky">{member.role}</p>
           <p className="mt-3 text-sm text-clap-muted">{member.location}</p>
-          <p className="mt-4 text-sm font-semibold text-clap-gold">View profile</p>
+          <p className="mt-4 text-sm font-semibold text-clap-sky">View profile</p>
         </div>
       </Card>
     </Link>

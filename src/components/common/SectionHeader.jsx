@@ -11,7 +11,7 @@ export default function SectionHeader({ eyebrow, title, description, className =
       whileInView="visible"
       viewport={{ once: true, amount: 0.3 }}
     >
-      {eyebrow && <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-clap-gold">{eyebrow}</p>}
+      {eyebrow && <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-clap-sky">{eyebrow}</p>}
       <h2 className="font-serif text-3xl font-black leading-tight text-clap-text sm:text-4xl">{title}</h2>
       {description && <p className="mt-4 text-base leading-7 text-clap-muted sm:text-lg">{description}</p>}
     </motion.div>

@@ -12,7 +12,7 @@ export default function ImagePlaceholder({ label, className = '' }) {
       aria-label={label}
     >
       <div className="flex flex-col items-center gap-3 text-center text-clap-muted">
-        <Scale className="h-10 w-10 text-clap-gold" aria-hidden="true" />
+        <Scale className="h-10 w-10 text-clap-sky" aria-hidden="true" />
         <span className="px-5 text-sm font-medium">{label}</span>
       </div>
     </div>

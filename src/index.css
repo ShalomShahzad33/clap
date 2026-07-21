@@ -6,7 +6,7 @@
 
 :root {
   color: #f8fafc;
-  background: #0f172a;
+  background: #0b1f66;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
 }
@@ -24,8 +24,8 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background:
-    radial-gradient(circle at top left, rgba(212, 175, 55, 0.12), transparent 32rem),
-    linear-gradient(180deg, #0f172a 0%, #111827 48%, #0f172a 100%);
+    radial-gradient(circle at top left, rgba(56, 189, 248, 0.18), transparent 32rem),
+    linear-gradient(180deg, #0b1f66 0%, #123c9c 48%, #0b1f66 100%);
   font-family: Inter, system-ui, sans-serif;
 }
 
@@ -41,10 +41,10 @@ textarea {
 }
 
 ::selection {
-  color: #0f172a;
-  background: #e6c766;
+  color: #0b1f66;
+  background: #7dd3fc;
 }
 
 .focus-ring {
-  @apply focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-clap-gold;
+  @apply focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-clap-sky;
 }

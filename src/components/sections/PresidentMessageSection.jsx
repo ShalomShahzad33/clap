@@ -39,7 +39,7 @@ export default function PresidentMessageSection() {
             )}
 
             {expanded && (
-              <div className="mt-8 border-t border-clap-border pt-6 text-sm leading-7 text-clap-gold">
+              <div className="mt-8 border-t border-clap-border pt-6 text-sm leading-7 text-clap-sky">
                 {presidentMessage.signature.map((line) => (
                   <p key={line} className="font-semibold">
                     {line}

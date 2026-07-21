@@ -46,7 +46,7 @@ export default function ContactFormSection() {
         <Button type="submit" className="w-full sm:w-auto">
           Send Message
         </Button>
-        {submitted && <p className="text-sm font-semibold text-clap-gold">Thank you. Your message has been validated locally.</p>}
+        {submitted && <p className="text-sm font-semibold text-clap-sky">Thank you. Your message has been validated locally.</p>}
       </form>
     </Card>
   );

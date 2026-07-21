@@ -14,7 +14,7 @@ export default function FormField({ id, label, error, as = 'input', className = 
         {...props}
       />
       {error && (
-        <p id={`${id}-error`} className="mt-2 text-sm text-clap-goldSoft">
+        <p id={`${id}-error`} className="mt-2 text-sm text-clap-skySoft">
           {error}
         </p>
       )}
