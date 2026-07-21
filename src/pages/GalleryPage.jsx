@@ -1,7 +1,8 @@
+import { Link } from 'react-router-dom';
 import Container from '../components/common/Container.jsx';
 import PageHero from '../components/common/PageHero.jsx';
 import Seo from '../components/common/Seo.jsx';
-import { galleryItems } from '../data/gallery.js';
+import { galleryFolders } from '../data/gallery.js';
 import { pageSeo } from '../data/seo.js';
 
 export default function GalleryPage() {
@@ -15,16 +16,22 @@ export default function GalleryPage() {
       />
       <section className="py-20">
         <Container>
-          <div className="columns-1 gap-6 sm:columns-2 lg:columns-3">
-            {galleryItems.map((item) => (
-              <div key={item.id} className="mb-6 break-inside-avoid">
+          <div className="grid gap-6 md:grid-cols-2">
+            {galleryFolders.map((folder) => (
+              <Link
+                key={folder.id}
+                to={folder.path}
+                className="focus-ring overflow-hidden rounded-lg border border-clap-border bg-white/[0.04] shadow-soft"
+              >
                 <img
-                  className="h-auto w-full"
-                  src={item.src}
-                  alt={item.alt}
-                  loading="lazy"
+                  className="h-72 w-full bg-clap-navy object-contain"
+                  src={folder.coverImage}
+                  alt={folder.coverAlt}
                 />
-              </div>
+                <div className="p-5">
+                  <h2 className="font-serif text-2xl font-bold text-clap-text">{folder.title}</h2>
+                </div>
+              </Link>
             ))}
           </div>
         </Container>

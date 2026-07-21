@@ -1,4 +1,4 @@
-const galleryImageFiles = [
+const oathTakingImageFiles = [
   '1.jpg',
   '2.jpg',
   '3.jpg',
@@ -13,6 +13,9 @@ const galleryImageFiles = [
   '12.jpg',
   '13.jpg',
   '14.jpg',
+];
+
+const generalGalleryImageFiles = [
   'WhatsApp Image 2026-07-21 at 5.25.08 PM.jpeg',
   'WhatsApp Image 2026-07-21 at 5.25.09 PM.jpeg',
   'WhatsApp Image 2026-07-21 at 5.25.09 PM (1).jpeg',
@@ -55,8 +58,33 @@ const galleryImageFiles = [
   'WhatsApp Image 2026-07-21 at 5.25.39 PM.jpeg',
 ];
 
-export const galleryItems = galleryImageFiles.map((fileName, index) => ({
-  id: fileName,
-  alt: `CLAP gallery photograph ${index + 1}`,
-  src: `/gallery/${fileName}`,
-}));
+function buildGalleryItems(folder, files, label) {
+  return files.map((fileName, index) => ({
+    id: `${folder}-${fileName}`,
+    alt: `CLAP ${label} photograph ${index + 1}`,
+    src: `/gallery/${folder}/${fileName}`,
+  }));
+}
+
+export const galleryFolders = [
+  {
+    id: 'oath-taking-ceremony-2026',
+    title: 'Oath Taking Ceremony 2026',
+    path: '/gallery/oath-taking-ceremony-2026',
+    coverImage: '/gallery/oath-taking-ceremony-2026/12.jpg',
+    coverAlt: 'CLAP Oath Taking Ceremony 2026 featured photograph',
+    items: buildGalleryItems('oath-taking-ceremony-2026', oathTakingImageFiles, 'Oath Taking Ceremony 2026'),
+  },
+  {
+    id: 'gallery',
+    title: 'Gallery',
+    path: '/gallery/gallery',
+    coverImage: '/gallery/gallery/WhatsApp Image 2026-07-21 at 5.25.08 PM.jpeg',
+    coverAlt: 'CLAP gallery featured photograph',
+    items: buildGalleryItems('gallery', generalGalleryImageFiles, 'gallery'),
+  },
+];
+
+export function getGalleryFolderById(id) {
+  return galleryFolders.find((folder) => folder.id === id) ?? null;
+}

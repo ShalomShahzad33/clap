@@ -16,8 +16,8 @@ export default function MemberPortrait({ member, size = 'card' }) {
     return (
       <img
         className={cn(
-          'rounded-lg border border-clap-border object-cover',
-          isLarge ? 'aspect-[4/5] w-full max-w-sm' : 'h-20 w-20 shrink-0',
+          'rounded-lg border border-clap-border bg-clap-navy object-contain',
+          isLarge ? 'h-auto w-full max-w-sm' : 'h-24 w-24 shrink-0',
         )}
         src={member.image}
         alt={`Portrait of ${member.name}`}
