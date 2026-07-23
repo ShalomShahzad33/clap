@@ -3,7 +3,6 @@ import Container from '../components/common/Container.jsx';
 import PageHero from '../components/common/PageHero.jsx';
 import Seo from '../components/common/Seo.jsx';
 import { getGalleryFolderById } from '../data/gallery.js';
-import { pageSeo } from '../data/seo.js';
 
 export default function GalleryFolderPage() {
   const { folderId } = useParams();
@@ -15,7 +14,20 @@ export default function GalleryFolderPage() {
 
   return (
     <>
-      <Seo title={`${folder.title} | ${pageSeo.gallery.title}`} description={pageSeo.gallery.description} />
+      <Seo
+        title={`${folder.title} | CLAP Gallery`}
+        description={`View ${folder.title} photographs from Christian Lawyers Association in Pakistan events and community service.`}
+        path={folder.path}
+        image={folder.coverImage}
+        jsonLd={{
+          '@context': 'https://schema.org',
+          '@type': 'ImageGallery',
+          name: `${folder.title} | CLAP Gallery`,
+          description: `Photographs from ${folder.title} by Christian Lawyers Association in Pakistan.`,
+          url: `https://www.clappakistan.org${folder.path}`,
+          image: `https://www.clappakistan.org${folder.coverImage}`,
+        }}
+      />
       <PageHero eyebrow="Gallery" title={folder.title} description="Photographs from CLAP events and community moments." />
       <section className="py-20">
         <Container>

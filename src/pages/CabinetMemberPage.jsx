@@ -19,6 +19,29 @@ export default function CabinetMemberPage() {
       <Seo
         title={`${member.name} | Our Cabinet | CLAP`}
         description={`${member.role} of Christian Lawyers Association in Pakistan.`}
+        path={`/our-cabinet/${member.slug}`}
+        image={member.image ?? '/logo.png'}
+        type="profile"
+        jsonLd={{
+          '@context': 'https://schema.org',
+          '@type': 'Person',
+          name: member.name,
+          jobTitle: member.role,
+          image: member.image
+            ? `https://www.clappakistan.org${member.image}`
+            : 'https://www.clappakistan.org/logo.png',
+          worksFor: {
+            '@type': 'Organization',
+            name: 'Christian Lawyers Association in Pakistan',
+            alternateName: 'CLAP',
+          },
+          address: {
+            '@type': 'PostalAddress',
+            addressLocality: member.location,
+            addressCountry: 'PK',
+          },
+          url: `https://www.clappakistan.org/our-cabinet/${member.slug}`,
+        }}
       />
       <section className="py-20">
         <Container className="max-w-5xl">
