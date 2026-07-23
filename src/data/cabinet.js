@@ -7,8 +7,13 @@ export const cabinetMembers = [
     group: 'President',
     image: '/cabinet/Riaz Anjum.jpeg',
     bio: [
-      'Riaz Anjum is Advocate High Court and President of the Christian Lawyers Association in Pakistan (CLAP).',
-      'He leads the association in its commitment to justice, human dignity, equality, and the rule of law, serving vulnerable communities and strengthening the Christian legal profession across Pakistan.',
+      `Riaz Anjum Masih, Advocate High Court, is a Pakistani Christian lawyer, human rights defender, author, and advocate for justice, equality, religious freedom, and the rule of law. He has been practicing law for over two decades before the subordinate courts and the Lahore High Court.
+Throughout his legal career, Mr. Riaz Anjum Masih has remained deeply committed to defending the rights of vulnerable and marginalized communities, particularly persecuted Christians in Pakistan. As a human rights defender, he has provided legal assistance and advocacy in cases involving victims of rape, forced conversion, religious persecution, and blasphemy allegations. His legal and human rights work has included cases that have attracted national and international attention.
+In recognition of his commitment and services to the Christian community and the cause of justice, Mr. Riaz Anjum Masih was unanimously elected President of the Christian Lawyers Association in Pakistan (CLAP) in 2025 for the term 2025–2026. As President, he is committed to strengthening the role of Christian lawyers in promoting justice, protecting human rights, advancing religious freedom, and advocating for constitutional equality and the rule of law.
+Mr. Riaz Anjum Masih is also a writer and author. In 2013, he authored the Urdu book "پاکستانی مسیحی اور قیادت کا بحران" (Pakistani Christians and the Crisis of Leadership), addressing important questions concerning the leadership, representation, and challenges faced by Pakistan's Christian community.
+Over the years, he has written extensively on the social, political, legal, and religious challenges confronting Pakistani Christians. His articles have been published on various national and international platforms, covering subjects including the plight of Christians in Pakistan, the role of Christian clergy, the migration of Pakistani Christians, the historical treatment of Christians under British rule in India, and the importance of effective leadership within the Christian community.
+Mr. Riaz Anjum Masih believes that Pakistan's future lies in the vision of its founder, Quaid-i-Azam Muhammad Ali Jinnah a Pakistan based on equality of citizenship, religious freedom, tolerance, moderation, and the rule of law. He has consistently advocated for a tolerant, moderate, democratic, and progressive Pakistan where every citizen, regardless of faith or background, can live with dignity, security, and equal rights.
+With a commitment to justice and a passion for human rights, he continues to work for the protection of the vulnerable and for the realization of a Pakistan where the constitutional rights and dignity of every citizen are respected and upheld.`,
     ],
   },
   {
