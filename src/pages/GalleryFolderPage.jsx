@@ -31,9 +31,9 @@ export default function GalleryFolderPage() {
       <PageHero eyebrow="Gallery" title={folder.title} description="Photographs from CLAP events and community moments." />
       <section className="py-20">
         <Container>
-          <div className="columns-1 gap-6 sm:columns-2 lg:columns-3">
+          <div className="mx-auto grid max-w-4xl gap-8">
             {folder.items.map((item) => (
-              <div key={item.id} className="mb-6 break-inside-avoid">
+              <div key={item.id}>
                 <img className="h-auto w-full" src={item.src} alt={item.alt} loading="lazy" />
               </div>
             ))}

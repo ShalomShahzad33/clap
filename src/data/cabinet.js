@@ -60,7 +60,7 @@ With a commitment to justice and a passion for human rights, he continues to wor
     role: 'Joint Secretary (2025–26)',
     location: 'Lahore',
     group: 'Joint Secretary',
-    image: null,
+    image: '/cabinet/Ishtiaq Gill.jpeg',
     bio: [
       'Ishtiaq Gill is Advocate High Court and Joint Secretary of CLAP (2025–26). He is a law graduate (LL.B) from City Law College Lahore with a B.A. from the University of Punjab.',
       'Punjab Bar Council enrollment: 2014. Life membership of Lahore Bar Association and High Court Bar Association (2018).',
@@ -73,7 +73,7 @@ With a commitment to justice and a passion for human rights, he continues to wor
     role: 'Finance Secretary (2025–26)',
     location: 'Lahore',
     group: 'Finance Secretary',
-    image: null,
+    image: '/cabinet/Shakeel Wilson.jpeg',
     bio: [
       'Shakeel Wilson Rajpoot is Advocate High Court with a strong academic and professional background in law and political science. He completed Matric and FA from the Lahore Board, followed by a BA and MA in Political Science from the University of the Punjab. He later pursued his LLB from the Pakistan College of Law, affiliated with the University of the Punjab.',
       'He is currently serving as Finance Secretary of the Christian Lawyers Association in Pakistan (2025–2026). He is also a Life Member of the Lahore Bar Association and a Life Member of the Christian Lawyers Association in Pakistan.',
@@ -86,7 +86,7 @@ With a commitment to justice and a passion for human rights, he continues to wor
     role: 'Press Secretary (2025–26)',
     location: 'Lahore',
     group: 'Executive Members',
-    image: '/cabinet/Rauf Khan.jpeg',
+    image: 'cabinet/Rauf Khan.jpeg',
     bio: [
       'Rauf Khan is Advocate High Court and presently serves as Executive Member of the CLAP Cabinet (2025–26) as Press Secretary.',
       'He completed Matriculation in Science from St. Mary\'s High School Mariyam Nishat Colony, Intermediate (I.Com) and Bachelor (B.Com) from Government Diyal Singh College Lahore, and LL.B from Punjab University (City Law College Lahore). He has practiced law since 2013, with Lower Court Licence in 2013 and High Court Licence in 2015.',
