@@ -85,7 +85,7 @@ With a commitment to justice and a passion for human rights, he continues to wor
     name: 'Rauf Khan',
     role: 'Press Secretary (2025–26)',
     location: 'Lahore',
-    group: 'Executive Members',
+    group: 'Press Secretary',
     image: 'cabinet/Rauf Khan.jpeg',
     bio: [
       'Rauf Khan is Advocate High Court and presently serves as Executive Member of the CLAP Cabinet (2025–26) as Press Secretary.',
