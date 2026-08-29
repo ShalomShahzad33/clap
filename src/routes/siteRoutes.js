@@ -6,10 +6,12 @@ import GalleryFolderPage from '../pages/GalleryFolderPage.jsx';
 import GalleryPage from '../pages/GalleryPage.jsx';
 import HomePage from '../pages/HomePage.jsx';
 import NotFoundPage from '../pages/NotFoundPage.jsx';
+import PresidentMessagePage from '../pages/PresidentMessagePage.jsx';
 
 export const appRoutes = [
   { path: '/', element: HomePage },
   { path: '/about', element: AboutPage },
+  { path: '/president-message', element: PresidentMessagePage },
   { path: '/gallery', element: GalleryPage },
   { path: '/gallery/:folderId', element: GalleryFolderPage },
   { path: '/our-cabinet', element: CabinetPage },

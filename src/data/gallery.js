@@ -3,6 +3,12 @@ const oathTakingImageFiles = Array.from({ length: 14 }, (_, index) => `${index +
 const generalGalleryImageFiles = [
   ...Array.from({ length: 37 }, (_, index) => `${index + 1}.jpeg`),
   'WhatsApp Image 2026-07-21 at 5.25.14 PM.jpeg',
+  'WhatsApp Image 2026-08-27 at 9.27.54 PM.jpeg',
+  'WhatsApp Image 2026-08-27 at 9.27.54 PM (1).jpeg',
+  'WhatsApp Image 2026-08-27 at 9.27.55 PM.jpeg',
+  'WhatsApp Image 2026-08-27 at 9.27.56 PM.jpeg',
+  'WhatsApp Image 2026-08-27 at 9.27.56 PM (1).jpeg',
+  'WhatsApp Image 2026-08-27 at 9.27.57 PM.jpeg',
 ];
 
 function buildGalleryItems(folder, files, label) {

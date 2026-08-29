@@ -23,6 +23,12 @@ export const pageSeo = {
       'Learn about CLAP mission, vision, objectives, and work for justice, legal assistance, human rights, religious freedom, and rule of law in Pakistan.',
     path: '/about',
   },
+  presidentMessage: {
+    title: 'President Message | CLAP',
+    description:
+      'Read the message from Riaz Anjum, President of Christian Lawyers Association in Pakistan, on justice, human rights, and legal advocacy.',
+    path: '/president-message',
+  },
   gallery: {
     title: 'Gallery | CLAP Events, Oath Taking Ceremony, and Community Service',
     description:
