@@ -11,7 +11,7 @@ function absoluteUrl(path = '/') {
 function organizationJsonLd() {
   return {
     '@context': 'https://schema.org',
-    '@type': 'LegalService',
+    '@type': ['LegalService', 'NGO'],
     name: organization.name,
     alternateName: organization.shortName,
     url: defaultSeo.siteUrl,
@@ -30,6 +30,7 @@ function organizationJsonLd() {
       '@type': 'Country',
       name: 'Pakistan',
     },
+    sameAs: [defaultSeo.siteUrl],
   };
 }
 
@@ -44,6 +45,7 @@ function websiteJsonLd() {
     publisher: {
       '@type': 'Organization',
       name: organization.name,
+      alternateName: organization.shortName,
       logo: {
         '@type': 'ImageObject',
         url: absoluteUrl(defaultSeo.image),
@@ -57,21 +59,27 @@ export default function Seo({
   description = defaultSeo.description,
   path,
   image = defaultSeo.image,
+  imageAlt,
   type = 'website',
   noindex = false,
+  keywords = defaultSeo.keywords,
+  author,
+  publishedTime,
+  modifiedTime,
   jsonLd,
 }) {
   const location = useLocation();
   const canonicalUrl = absoluteUrl(path ?? location.pathname);
   const imageUrl = absoluteUrl(image);
   const robots = noindex ? 'noindex, nofollow' : 'index, follow, max-image-preview:large';
-  const structuredData = [organizationJsonLd(), websiteJsonLd(), jsonLd].filter(Boolean);
+  const extraStructuredData = Array.isArray(jsonLd) ? jsonLd : [jsonLd].filter(Boolean);
+  const structuredData = [organizationJsonLd(), websiteJsonLd(), ...extraStructuredData];
 
   return (
     <Helmet>
       <title>{title}</title>
       <meta name="description" content={description} />
-      <meta name="keywords" content={defaultSeo.keywords} />
+      <meta name="keywords" content={keywords} />
       <meta name="robots" content={robots} />
       <link rel="canonical" href={canonicalUrl} />
 
@@ -82,12 +90,17 @@ export default function Seo({
       <meta property="og:type" content={type} />
       <meta property="og:url" content={canonicalUrl} />
       <meta property="og:image" content={imageUrl} />
-      <meta property="og:image:alt" content={`${organization.shortName} logo`} />
+      <meta property="og:image:alt" content={imageAlt ?? `${defaultSeo.siteName} image`} />
+      {author ? <meta name="author" content={author} /> : null}
+      {type === 'article' && publishedTime ? <meta property="article:published_time" content={publishedTime} /> : null}
+      {type === 'article' && modifiedTime ? <meta property="article:modified_time" content={modifiedTime} /> : null}
+      {type === 'article' && author ? <meta property="article:author" content={author} /> : null}
 
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={imageUrl} />
+      <meta name="twitter:image:alt" content={imageAlt ?? `${defaultSeo.siteName} image`} />
 
       {structuredData.map((data, index) => (
         <script key={index} type="application/ld+json">

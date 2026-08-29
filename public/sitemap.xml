@@ -2,61 +2,104 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.clappakistan.org/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.clappakistan.org/about</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.clappakistan.org/president-message</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>  <url>
+  </url>
+  <url>
+    <loc>https://www.clappakistan.org/articles</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.clappakistan.org/articles/systematic-inequality</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://www.clappakistan.org/our-cabinet</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.clappakistan.org/our-cabinet/riaz-anjum</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.clappakistan.org/our-cabinet/jawad-farhat-khokhar</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.clappakistan.org/our-cabinet/sarfraz-khokhar</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.clappakistan.org/our-cabinet/abisaloom-robin-bhatti</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.clappakistan.org/our-cabinet/ishtiaq-gill</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.clappakistan.org/our-cabinet/shakeel-wilson-rajpoot</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.clappakistan.org/our-cabinet/rauf-khan</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.clappakistan.org/gallery</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.clappakistan.org/gallery/oath-taking-ceremony-2026</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.clappakistan.org/gallery/gallery</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.clappakistan.org/contact</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 </urlset>

@@ -29,6 +29,12 @@ export const pageSeo = {
       'Read the message from Riaz Anjum, President of Christian Lawyers Association in Pakistan, on justice, human rights, and legal advocacy.',
     path: '/president-message',
   },
+  articles: {
+    title: 'Articles | CLAP Legal Analysis and Advocacy',
+    description:
+      'Read CLAP articles on constitutional rights, minority protections, religious freedom, human rights, and equal citizenship in Pakistan.',
+    path: '/articles',
+  },
   gallery: {
     title: 'Gallery | CLAP Events, Oath Taking Ceremony, and Community Service',
     description:
